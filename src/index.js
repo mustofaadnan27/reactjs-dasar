@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Navbar from './Navbar';
+// import Variabel from './Variabel';
+import StateProps from './Components/StateProps/StateProps';
+import Map from './Map';
+import Lifecycle from './Components/Lifecycle/Lifecycle';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <>
     <App />
+    </>
   </React.StrictMode>
 );
 
