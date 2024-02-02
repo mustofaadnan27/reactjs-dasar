@@ -1,20 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
+import Crud from "./Crud";
 // import Navbar from './Navbar';
 // import Variabel from './Variabel';
-import StateProps from './Components/StateProps/StateProps';
-import Map from './Map';
-import Lifecycle from './Components/Lifecycle/Lifecycle';
-import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <>
-    <App />
+      <Crud />
     </>
   </React.StrictMode>
 );
